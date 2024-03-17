@@ -1,0 +1,68 @@
+DATA
+
+## Paired end ###
+PE= pa 300 35 /scratch/rmarquez8/TerribilisAssembly/PE/1b2_gelfree_1.fastq.gz /scratch/rmarquez8/TerribilisAssembly/PE/1b2_gelfree_2.fastq.gz
+PE= pb 300 35 /scratch/rmarquez8/TerribilisAssembly/PE/21SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/PE/21SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L001_R2_001.fastq.gz
+PE= pc 300 35 /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L001_R2_001.fastq.gz
+PE= pd 300 35 /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L002_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L002_R2_001.fastq.gz
+PE= pe 300 35 /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L003_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L003_R2_001.fastq.gz
+PE= pf 300 35 /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L004_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L004_R2_001.fastq.gz
+PE= pg 300 35 /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L005_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/PE/30SEPT2016HiSeq_Run_Sample_1a1_Ptesterribilis_Gellfree_UNCC_Janies_CGATGT_L005_R1_001.fastq.gz
+
+### Jumping Pairs (mate paired) ###
+
+#3kb
+
+JUMP= ma 3000 500 /scratch/rmarquez8/TerribilisAssembly/MP/1b2_3kb_1.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/1b2_3kb_2.fastq.gz
+JUMP= mb 3000 500 /scratch/rmarquez8/TerribilisAssembly/MP/21SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/21SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L001_R2_001.fastq.gz
+JUMP= mc 3000 500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L001_R2_001.fastq.gz
+JUMP= md 3000 500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L002_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L002_R2_001.fastq.gz
+JUMP= mf 3000 500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L003_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L003_R2_001.fastq.gz
+JUMP= mg 3000 500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L004_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L004_R2_001.fastq.gz
+JUMP= mh 3000 500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L005_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus3kb_UNCC_Janies_TGACCA_L005_R2_001.fastq.gz
+
+#5kb
+
+JUMP= mi 5000 750 /scratch/rmarquez8/TerribilisAssembly/MP/1b2_5kb_1.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/1b2_5kb_2.fastq.gz
+JUMP= mj 5000 750 /scratch/rmarquez8/TerribilisAssembly/MP/21SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/21SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L001_R2_001.fastq.gz
+JUMP= mk 5000 750 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L001_R2_001.fastq.gz
+JUMP= ml 5000 750 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L002_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L002_R2_001.fastq.gz
+JUMP= mm 5000 750 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L003_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L003_R2_001.fastq.gz
+JUMP= mn 5000 750 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L004_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L004_R2_001.fastq.gz
+JUMP= mo 5000 750 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L005_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus5kb_UNCC_Janies_ACAGTG_L005_R2_001.fastq.gz
+
+#8kb
+
+JUMP= mp 8000 1000 /scratch/rmarquez8/TerribilisAssembly/MP/1b2_8kb_1.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/1b2_8kb_2.fastq.gz
+
+#10kb
+
+JUMP= mq 10000 1500 /scratch/rmarquez8/TerribilisAssembly/MP/21SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/21SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L001_R2_001.fastq.gz
+JUMP= mr 10000 1500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L001_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L001_R2_001.fastq.gz
+JUMP= ms 10000 1500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L002_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L002_R2_001.fastq.gz
+JUMP= mt 10000 1500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L003_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L003_R2_001.fastq.gz
+JUMP= mu 10000 1500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L003_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L003_R2_001.fastq.gz
+JUMP= mv 10000 1500 /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L005_R1_001.fastq.gz /scratch/rmarquez8/TerribilisAssembly/MP/30SEPT2016HiSeq_Run_Sample_1a1_Pterribilis_Gellplus10kb_UNCC_Janies_GCCAAT_L005_R2_001.fastq.gz
+
+END
+
+PARAMETERS
+#this is k-mer size for deBruijn graph values between 25 and 101 are supported, auto will compute the optimal size based on the read data and GC content
+GRAPH_KMER_SIZE=auto
+#set this to 1 for Illumina-only assemblies and to 0 if you have 2x or more long (Sanger, 454) reads
+USE_LINKING_MATES=1
+#this parameter is useful if you have too many jumping library mates. Typically set it to 60 for bacteria and something large (300) for mammals
+LIMIT_JUMP_COVERAGE = 300
+#these are the additional parameters to Celera Assembler.  do not worry about performance, number or processors or batch sizes -- these are computed automatically. for mammals do not set cgwErrorRate above 0.15!!!
+CA_PARAMETERS = ovlMerSize=87 cgwErrorRate=0.1 ovlMemory=7.5GB merOverlapperThreads=8 cgwErrorRate=0.12
+#minimum count k-mers used in error correction 1 means all k-mers are used.  one can increase to 2 if coverage >100
+KMER_COUNT_THRESHOLD = 1
+#auto-detected number of cpus to use
+NUM_THREADS= 26
+#this is mandatory jellyfish hash size golden fron genome ~ 4GB
+ JF_SIZE=40000000000
+#JF_SIZE=30952660660
+#this specifies if we do (1) or do not (0) want to trim long runs of homopolymers (e.g. GGGGGGGG) from 3' read ends, use it for high GC genomes
+DO_HOMOPOLYMER_TRIM=0
+END
+
