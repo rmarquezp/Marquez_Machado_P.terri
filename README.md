@@ -1,2 +1,2 @@
-# Marquez_Machado_P.terri
-Scripts used to produce a draft genome assembly of Phyllobates terribilis
+# A draft assembly for <i>Phylloabtes terribilis</i>
+Code used to produce a draft genome assembly for <i>P. terribilis</i>
