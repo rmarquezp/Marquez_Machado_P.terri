@@ -56,7 +56,6 @@ for ((i=1; i<=${round};i++)); do
 	awk '!/^>/ { printf "%s", $0; n = "\n" } /^>/ { print n $0; n = "" } END { printf "%s", n }' LR/iteration-5/gapclosed.fasta > LR_assembly_SingleLine.fa
 	bash ~/software/RAILS_v1.5.1/runRAILSminimapSTREAM.sh LR_assembly_SingleLine.fa PacBio_singleLine.fa 100 0.90 100 1 pacbio ~/software/samtools-1.11
 	mv *_rails.scaffolds.fa Rails.final.fa
-	#ragtag.py scaffold Rails.final.fa Rails.final.fa -r -t 120 -u
 	bash ~/software/NextPolish/RunNextpolish.sh Rails.final.fa $PE1 $PE2 1 120
 	
 	input=../Round"$i"/genome.nextpolish.FINAL.fa
